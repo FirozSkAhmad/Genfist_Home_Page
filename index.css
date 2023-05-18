@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+}
+
+.head-con {
+  position: sticky;
+  top: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(209, 208, 208);
+  height: 100px;
+  padding: 20px 100px 0 104px;
+  gap: 150px;
+  z-index: 1;
+}
+
+.header > .img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.header > .img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.filter > select {
+  height: 40px;
+  width: 140px;
+}
+
+.search-con {
+  position: relative;
+}
+
+.search-con > input {
+  background-color: #f0f2f5;
+  border: none;
+  border-radius: 2rem;
+  color: #5b6c8f;
+  font-size: 1.1rem;
+  height: 48px;
+  outline: none;
+  text-indent: 3rem;
+  width: 570px;
+}
+
+.search-con > .search-icon {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icons h1 {
+  color: gold;
+}
+
+.icons .count-con {
+  width: 18px;
+  height: 18px;
+  background-color: #103178;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.fav-con,
+.cart-con {
+  width: 40px;
+  position: relative;
+}
+
+.fav-con > .count-con {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cart-con > .count-con {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navbar {
+  width: 1295px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px 12px 104px;
+  background-color: white;
+}
+
+.navbar > .links-con {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar > .links-con h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navbar > h3 {
+  color: gray;
+}
+
+.scrollbox-con {
+  width: 1295px;
+  height: 485px;
+  padding: 32px 112px;
+}
+
+.categorie-con {
+  width: 1295px;
+  padding: 32px 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.categorie-con > .heading-con > .name {
+  display: flex;
+  justify-content: center;
+  color: #103178;
+}
+
+.categorie-con > .heading-con > .option {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px 30px 0 0;
+}
+
+.CategorieCard-con {
+  background-color: #f0f2f5;
+  width: 245px;
+  height: 155px;
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.CategorieCard-con > h4 {
+  text-align: center;
+}
+
+.name-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #103178;
+}
+
+.items-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.deals-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.DealsoftheDay-con {
+  width: 1295px;
+  padding: 32px 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.DealsoftheDay-con > .heading-con {
+  display: flex;
+  justify-content: center;
+}
+
+.DealsoftheDay-con > .heading-con > h1 {
+  color: #103178;
+}
+
+.dealcard-con {
+  height: 360px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.dealcard-con > .img-con {
+  width: 240px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.dealcard-con > .img-con > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dealcard-con > .details-con {
+  width: 215px;
+  height: 260px;
+  padding: 10px;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.dealcard-con > .details-con > .con {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dealcard-con > .details-con > .con > h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #103178;
+}
+
+.dealcard-con > .details-con > .con > h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(158, 158, 158);
+}
+
+.dealcard-con > .details-con > button {
+  background-color: #ff9923;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.exp-con {
+  width: 1295px;
+  padding: 32px 112px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.exp-con > .heading-con {
+  display: flex;
+  justify-content: center;
+  color: #103178;
+}
+
+.DealsoftheDay-con > .heading-con > h1 {
+  color: #103178;
+}
+
+.nearToExp-con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-con {
+  width: 1295px;
+  padding: 32px 16px 32px 112px;
+  display: flex;
+  gap: 40px;
+}
+
+.footer-con > .about-company-con {
+  width: 279px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-company-con > .img-con {
+  width: 100px;
+  height: 100px;
+}
+
+.about-company-con > .img-con > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-company-con > .icons-con {
+  display: flex;
+  gap: 20px;
+}
+
+.about-company-con > h3 {
+  color: #103178;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.about-company-con > .icons-con > h2 {
+  color: #536999;
+}
+
+.help-con {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.help-con > .name {
+  color: #103178;
+}
+
+.help-con > .phone-con {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.help-con > .phone-con > .phone-icon {
+  color: #ff9923;
+}
+
+.help-con > .phone-con > h2 {
+  color: #103178;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.help-con > .timmining-con > h2 {
+  color: #536999;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.help-con > .hr {
+  color: #103178;
+}
+
+.help-con > .email-con {
+  display: flex;
+  gap: 10px;
+}
+
+.help-con > .email-con > h3 {
+  color: #103178;
+}
+
+.imformation-con {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imformation-con > h2 {
+  color: #103178;
+}
+
+.imformation-con > h3 {
+  color: #103178;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.account-con {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.account-con > h2 {
+  color: #103178;
+}
+
+.account-con > h3 {
+  color: #103178;
+  font-size: larger;
+  font-weight: 500;
+}
+
+
+.buttom-com{
+  height: 28px;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+}
+
+.buttom-com>h2{
+  font-size: large;
+  font-weight: 500;
+  color: #3c455a;
+}
