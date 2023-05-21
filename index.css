@@ -279,9 +279,36 @@
 }
 
 .nearToExp-con {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  width: 1300px;
+  justify-content: center;
+  z-index: -1;
+}
+
+.leftArrow,
+.rightArrow {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 150px;
+  background-color: #103178e1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: x-large;
+  color: rgb(171, 171, 171);
+}
+
+.leftArrow {
+  left: 0px;
+}
+
+.rightArrow {
+  right: 0px;
 }
 
 .footer-con {
@@ -402,8 +429,7 @@
   font-weight: 500;
 }
 
-
-.buttom-com{
+.buttom-com {
   height: 28px;
   width: 1400px;
   display: flex;
@@ -412,7 +438,7 @@
   padding: 5px 50px;
 }
 
-.buttom-com>h2{
+.buttom-com > h2 {
   font-size: large;
   font-weight: 500;
   color: #3c455a;

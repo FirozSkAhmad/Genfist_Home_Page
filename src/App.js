@@ -11,6 +11,7 @@ import { addCategorieItems } from "../utils/categorieSlice";
 import { adddealsofthedayItems } from "../utils/dealsofthedaySlice";
 import ExpiryProducts from "./components/ExpiryProducts";
 import { addexpiryproductsItems } from "../utils/expiryproductsSlice";
+import { addBannerSliceItems } from "../utils/bannerSlice";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
         dispatch(adddealsofthedayItems(json.DealsoftheDay))
         dispatch(adddealsofthedayItems(json.DealsoftheDay))
         dispatch(addexpiryproductsItems(json.ExpiryProducts))
+        dispatch(addBannerSliceItems(json.banners))
     }
 
     return (
